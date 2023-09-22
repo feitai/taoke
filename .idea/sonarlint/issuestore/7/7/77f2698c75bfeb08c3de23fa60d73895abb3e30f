@@ -1,0 +1,7 @@
+
+s	java:S116	"RRename this field "node_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÓÆŒùÿÿÿÿ8 ¥ï‰¢1
+q	java:S116
+"URename this field "avatar_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óã à8 ¥ï‰¢1
+r	java:S116"VRename this field "gravatar_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö÷‰½8 ¥ï‰¢1
+o	java:S116"SRename this field "html_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Žå×8 ¥ï‰¢1
+t	java:S116"XRename this field "followers_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ù½Ó8 ¥ï‰¢1

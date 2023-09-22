@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  servlet:
+    session.timeout: 60000
+    context-path: /
+logging:
+  level:
+    org.springframework:
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/yc125res?serverTimezone=UTC
+    username: root
+    password: aaaa
+    driver-class-name: com.mysql.cj.jdbc.Driver

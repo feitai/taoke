@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848  # Nacos 服务器的地址
+        username: nacos  # Nacos 登录用户名
+        password: nacos  # Nacos 登录密码
+        namespace: yc_prod  # Nacos 命名空间，用于隔离配置
+        group: DEFAULT_GROUP  # 配置组，默认是 DEFAULT_GROUP
+        prefix: res-security  # 配置前缀，用于区分不同的配置
+        file-extension: yml  # 配置文件的扩展名，这里使用 YAML 格式
+        shared-configs:
+          - mysql.yml
+          - redis.yml
+  profiles:
+   active: prod  # 当前激活的配置文件
+  application:
+    name: res-security  # 应用程序名称，用于标识不同的应用

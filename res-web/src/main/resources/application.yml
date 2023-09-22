@@ -1,0 +1,24 @@
+server:
+  port: 7777
+  web:
+    resource:  #指定静态页面的位置
+     static-locations: [classpath:/public/,classpath:/resources/,classpath:/META-INF/resources,classpath:/static/]
+
+
+logging:
+  level:
+    root: info
+    com.yc: info
+    org.springframework.web: trace
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+        namespace: yc_prod
+#        group: order
+  application:
+    name: res-web
